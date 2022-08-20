@@ -11,7 +11,7 @@ router.get('/error', async ctx => {
 });
 
 router.get('/', ctx => {
-  ctx.body = "Howdy";
+  ctx.body = "Hello World";
 });
 
 // app.use(sentryMiddleware);
