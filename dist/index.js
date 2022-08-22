@@ -11,7 +11,7 @@ router.get('/error', async ctx => {
 });
 
 router.get('/', ctx => {
-  ctx.body = "Hello World";
+  ctx.body = "Hello Vercel";
 });
 
 // app.use(sentryMiddleware);
